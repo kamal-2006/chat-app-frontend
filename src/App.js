@@ -10,7 +10,7 @@ function App() {
   const sendMessage = () => {
     if (message.trim()) {
       socket.emit('sendMessage', message); //hi
-      setMessage('');
+      setMessage(''); //hi
     }
   };
 
