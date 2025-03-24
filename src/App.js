@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     socket.on('receiveMessage', (msg) => {
-      setMessages((prev) => [...prev, msg]);
+      setMessages((prev) => [...prev, msg]);//hi
     });
 
     return () => {
